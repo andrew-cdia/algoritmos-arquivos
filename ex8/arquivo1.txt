@@ -1,2 +1,2 @@
 Arquivo 1:
-Esta  ́e a primeira linha do arquivo 1.
+Esta é a primeira linha do arquivo 1.

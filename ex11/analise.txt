@@ -1,0 +1,1 @@
+Analisando esse texto, devemos contar palavras, linhas e caracteres.

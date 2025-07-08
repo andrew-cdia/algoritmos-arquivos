@@ -1,4 +1,4 @@
-arq = open("exemplo.txt", "r")
+arq = open("exemplo.txt", "r", encoding="UTF-8")
 
 letra = arq.read(1)
 vogais = 0

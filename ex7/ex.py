@@ -1,4 +1,4 @@
-arq = open("minusculas.txt", 'r')
+arq = open("minusculas.txt", 'r', encoding="UTF-8")
 
 conteudo = arq.read()
 
@@ -6,7 +6,7 @@ arq.close()
 
 conteudo = conteudo.upper()
 
-arq = open("minusculas.txt", 'w')
+arq = open("maiusculas.txt", 'w', encoding="UTF-8")
 
 arq.write(conteudo)
 

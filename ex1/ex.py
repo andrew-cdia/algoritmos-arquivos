@@ -1,4 +1,4 @@
-arq = open("linhas.txt", 'r')
+arq = open("linhas.txt", 'r', encoding="UTF-8")
 
 linhas = 0
 

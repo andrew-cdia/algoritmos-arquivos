@@ -1,4 +1,4 @@
-arq = open("cidades.txt", 'r')
+arq = open("cidades.txt", 'r', encoding="UTF-8")
 
 cidades = dict()
 
@@ -7,11 +7,11 @@ for line in arq:
 
 arq.close()
 
-cidades = sorted(cidades, key=lambda k: k[1])
+cidades = sorted(cidades.items(), key=lambda k: k[1])
 
-arq = open("ordenado.txt", 'w')
+arq = open("ordenado.txt", 'w', encoding="UTF-8")
 
-for cidade in cidades[::-1]:
-    print(f"{cidade[0]}{cidades[1]}", file=arq)
+for cidade in cidades:
+    print(f"{cidade[0]}{cidade[1]}", file=arq)
 
 arq.close()

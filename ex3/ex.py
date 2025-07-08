@@ -1,4 +1,4 @@
-arq = open("vogais_consoantes.txt", 'r')
+arq = open("vogais_consoantes.txt", 'r', encoding="UTF-8")
 
 vogais = 0
 consoantes = 0
